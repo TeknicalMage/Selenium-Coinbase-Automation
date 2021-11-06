@@ -14,18 +14,7 @@ from datetime import datetime
  
 
 import string
-
-
-
 import pickle
-
-
-#Clicking Google Search button 
-#driver.find_element_by_xpath("//input[@value='Google Search']").click()
-
-#Keyword searched in the chrometest
-
-x = 1
 
 
 
@@ -33,6 +22,7 @@ def chrometest():
     compval = "base"
     macrovalue = ""
     macrostr = ""
+    x = 0
     chrome_options = Options()
 
     #Keyword searched in the chrometest
